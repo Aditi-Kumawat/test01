@@ -1,6 +1,6 @@
 import numpy as np
 # comment to test on git
-
+# comment added by another colleague
 def get_w0_t_vect_Newton_I_TPV_zt(w1_t_vect, t_vect, t_itr, I_TP_V, C_H, z_t_vect):
     """
     Newton-Raphson to find roots of non-linear algebraic equations (for nonlinear Hertzian contact
