@@ -1,4 +1,5 @@
 import numpy as np
+# comment to test on git
 
 def get_w0_t_vect_Newton_I_TPV_zt(w1_t_vect, t_vect, t_itr, I_TP_V, C_H, z_t_vect):
     """
@@ -83,3 +84,4 @@ if __name__ == "__main__":
     w0, iterations = get_w0_t_vect_Newton_I_TPV_zt(w1, t, max_iter, I_TP_V, C_H, z)
     print("w0_t_vect:", w0)
     print("Iterations performed:", iterations)
+
